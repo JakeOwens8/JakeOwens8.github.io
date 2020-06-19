@@ -1,4 +1,69 @@
-img {
-	height: 200px;
-	width: 200px;
+body {
+	background-color: rgb(224,209,163);
 }
+
+h1, h2 {
+	text-align: center;
+	font-family: palatino, georgia, serif;
+	font-weight: bold;
+	font-size: 44px;
+}
+
+.top {
+	font-family: palatino, georgia, serif;
+	margin: 2em;
+}
+
+.social {
+	font-family: palatino, georgia, serif;
+	margin: 2em;
+}
+
+nav a {
+	font-family: palatino, georgia, serif;
+	width: 15%;
+    padding: 5px;
+    border: 3px solid gray;
+    text-align: center;
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+.advertise {
+	font-family: palatino, georgia, serif;
+	margin: 2em;
+	width: 15%;
+    padding: 5px;
+    border: 3px solid gray;
+    text-align: center;
+	text-decoration: none;
+}
+
+.contact {
+	font-family: palatino, georgia, serif;
+	margin: 2em;
+	width: 15%;
+    padding: 5px;
+    border: 3px solid gray;
+    text-align: center;
+	text-decoration: none;
+}
+
+.signup {
+	font-family: palatino, georgia, serif;
+	margin: 2em;
+	width: 15%;
+    padding: 5px;
+    border: 3px solid gray;
+    text-align: center;
+	text-decoration: none;
+}
+
+.burgers {
+	font-family: palatino, georgia, serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
