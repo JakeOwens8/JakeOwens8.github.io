@@ -5,41 +5,57 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<header id="top">
+	<header class="top">
 		<h1>Burger Rater</h1>
 		<h2>Best burgers near you!</h2>
-			<a href="#">Sydney</a>
-			<a href="#"></a>
-			<a href="#"></a>
+        <div class="lbutton">
+            <button class="buttoncontent">Location</button>
+            <div class="location">
+                <a href="#">Sydney</a>
+                <a href="#">Newcastle</a>
+                <a href="#">Melborne</a>
+            </div>
+         </div>   
+
+        <div class="social">
             <a href="https://twitter.com/explore">
-                <img src="images/twitter.svg" alt="link to my twitter">
+                <img src="images/twitter.svg" alt="link to my twitter" width="40" height="40">
             </a>
 		    <a href="https://www.facebook.com/">
-                <img src="images/facebook.svg" alt="link to my facebook">
+                <img src="images/facebook.svg" alt="link to my facebook" width="40" height="40">
             </a>
 			<a href="https://www.instagram.com/">
-                <img src="images/instagram.svg" alt="link to my instagram">
+                <img src="images/instagram.svg" alt="link to my instagram" width="40" height="40">
             </a>
-	    
-			<a href="#">
-                <img src="images/sign_in_icon.png" alt="sign_in">
-            Sign in/up
+	        <a href="#">
+                <img src="images/sign_in_icon.png" alt="sign_in" width="50" height="50">
             </a>
+        </div>
 		<nav>
-			<a href="#">The Burger Feed</a>
-			<a href="#">Your Top 10</a>
-			<a href="#">Hidden Gems</a>
-			<a href="#">The Veggie Option</a>
-		</nav>
+			<a href="#">
+            The Burger Feed
+        </a>
+			<a href="#">
+            Your Top 10
+        </a>
+            <a href="#">
+            Advertise with us
+        </a>
+			<a href="#">
+            Hidden Gems
+        </a>
+			<a href="#">
+            The Veggie Option
+        </a>
+        </nav>
     </header>
-    <section id="advertise">
-    		<a href="#">Advertise with us</a>
-    		<a href="#">Contact us</a>
+    <section class="contact">
+            <a href="#">Contact us</a>
     </section>
 
     <section class="burgers">
     	<h3>Burger #1</h3>
-    	<img src="images/burger_photo_1.jpg" alt="burger_photo_1">
+    	<img src="images/burger_photo_1.jpg" alt="burger_photo_1" width="200" height="200">
     	<h5>Ribs and Burgers in Drummoyne</h5>
     	<p>My opinion: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -48,10 +64,10 @@
     	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     	    <a href="upvote">
-               <img src="images/upvote.svg" alt="upvote"> 
+               <img src="images/upvote.svg" alt="upvote" width="30" height="30"> 
             </a>
     	    <a href="downvote">
-                <img src="images/downvote.svg" alt="downvote">
+                <img src="images/downvote.svg" alt="downvote" width="30" height="30">
             </a>
         <p>Your comments: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -62,7 +78,7 @@
     </section>
     <section class="burgers">
     	<h3>Burger #2</h3>
-    	<img src="images/burger_photo_2.jpg" alt="burger_photo_2">
+    	<img src="images/burger_photo_2.jpg" alt="burger_photo_2" width="200" height="200">
     	<h5>Grilled Burgers</h5>
     	<p>My opinion: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -71,10 +87,10 @@
     	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     		<a href="upvote">
-               <img src="images/upvote.svg" alt="upvote"> 
+               <img src="images/upvote.svg" alt="upvote" width="30" height="30"> 
             </a>
             <a href="downvote">
-                <img src="images/downvote.svg" alt="downvote">
+                <img src="images/downvote.svg" alt="downvote" width="30" height="30">
             </a>
         <p>Your comments: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -84,16 +100,16 @@
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
 
-    <section id="signup">
+    <section class="signup">
     	<h3>Consider signing up for the newsletter?</h3>
-    	<img src="images/sign_in_icon.png" alt="sign_in">
+    	<img src="images/sign_in_icon.png" alt="sign_in" width="100" height="100">
     	<a href="sign_in"></a>
-    	<p>get weekly updates of the top burgers in your area, etc etc.</p>
+    	<p>Get weekly updates of the top burgers in your area, etc etc.</p>
     </section>
 
     <section class="burgers">
     	<h3>Burger #3</h3>
-    	<img src="images/burger_photo_3.jpg" alt="burger_photo_2">
+    	<img src="images/burger_photo_3.jpg" alt="burger_photo_2" width="300" height="200">
     	<h5>Loaded</h5>
     	<p>My opinion: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -102,10 +118,10 @@
     	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     		<a href="upvote">
-               <img src="images/upvote.svg" alt="upvote"> 
+               <img src="images/upvote.svg" alt="upvote" width="30" height="30"> 
             </a>
             <a href="downvote">
-                <img src="images/downvote.svg" alt="downvote">
+                <img src="images/downvote.svg" alt="downvote" width="30" height="30">
             </a>
         <p>Your comments: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
