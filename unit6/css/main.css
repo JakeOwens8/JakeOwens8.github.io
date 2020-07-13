@@ -1,0 +1,160 @@
+* {
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(225,225,225);
+	font-family: palatino, georgia, serif;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	padding: 5px;
+}
+
+nav a {
+	width: 20%;
+    padding: 0;
+    border: 3px solid gray;
+    font-size: 1.5em;
+    text-align: center;
+	display: block;
+	text-decoration: none;
+	float: left;
+	background-color: rgb(255,255,255);
+}
+
+nav a:hover {
+	background-color: rgb(199,171,95);
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.top {
+	margin: 0em;
+	border: 3px solid gray;
+    text-align: center;
+	text-decoration: none;
+	background-color: rgb(255,255,255);
+}
+
+.social {
+	position: absolute;
+	text-align: right;
+	top: 20px;
+	right: 20px;
+	margin: 2em;
+	width: 20%;
+	background-color: rgb(255,255,255);
+}
+
+.lbutton {
+	position: absolute;
+	text-align: left;
+	top: 20px;
+	left: 20px;
+	margin: 2em;
+}
+
+.advertise {
+	margin: 2em;
+	width: 15%;
+    padding: 5px;
+    border: 3px solid gray;
+    text-align: center;
+	text-decoration: none;
+	background-color: rgb(255,255,255);
+}
+
+.contact {
+	margin: 2em;
+	width: 25%;
+    padding: 10px;
+    border: 3px solid gray;
+    text-align: center;
+    margin-left: 35%;
+	text-decoration: none;
+	background-color: rgb(255,255,255);
+}
+
+.contact:hover {
+	background-color: rgb(199,171,95);
+}
+
+.signup {
+	margin: 2em;
+	width: 25%;
+    padding: 10px;
+    border: 3px solid gray;
+    text-align: center;
+    margin-left: 35%;
+	text-decoration: none;
+	background-color: rgb(255,255,255);
+
+}
+
+.burgers {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+	border: 1px grey solid;
+	background-color: rgb(255,255,255);
+	padding: 10px;
+}
+
+.burgers:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.burgerimage {
+	width: 48%;
+	padding: 1%;
+}
+
+.upvote {
+	width: 2%;
+}
+
+.downvote {
+	width: 2%;
+}
+
+.socialimage {
+	width: 15%;
+}
+
+.signin {
+	width: 18%;
+}
+
+.info {
+	float: right;
+	clear: both;
+	width: 50%;
+	border: 1px grey solid;
+	box-shadow: 2px 2px 1px 1px #888888;
+	padding: 2%;
+
+}
+
+.user {
+	float: left;
+	width: 50%;
+	clear: right;
+}
