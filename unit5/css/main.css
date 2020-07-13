@@ -157,4 +157,7 @@ nav a:hover {
 	float: left;
 	width: 50%;
 	clear: right;
+	border: 1px grey solid;
+	box-shadow: 2px 2px 1px 1px #888888;
+	padding: 2%;
 }
