@@ -1,0 +1,230 @@
+* {
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(18,89,196);
+	font-family: palatino, georgia, serif;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	padding: 5px;
+}
+
+h2 {
+	padding: 1em;
+}
+
+h3 {
+	
+}
+
+nav a {
+	width: 20%;
+    padding: 1em;
+    border: 3px solid gray;
+    font-size: 1.2em;
+    text-align: center;
+	display: block;
+	text-decoration: none;
+	float: left;
+	background-color: rgb(197,209,227);
+	text-decoration-color: none
+}
+
+nav a:hover {
+	background-color: rgb(199,171,95);
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.top {
+	margin: 0em;
+	border: 3px solid gray;
+    text-align: center;
+    padding: 1em;
+	text-decoration: none;
+	background-color: rgb(197,209,227);
+	text-decoration-color: none;
+}
+
+.social {
+	position: absolute;
+	text-align: right;
+	top: 20px;
+	right: 20px;
+	margin: 2em;
+	width: 20%;
+	background-color: rgb(197,209,227);
+}
+
+.lbutton {
+	position: absolute;
+	text-align: left;
+	top: 20px;
+	left: 20px;
+	margin: 2em;
+}
+
+.advertise {
+	margin: 2em;
+	width: 15%;
+    padding: 5px;
+    border: 3px solid gray;
+    text-align: center;
+	text-decoration: none;
+	background-color: rgb(197,209,227);
+}
+
+.contact {
+	margin: 2em;
+	width: 25%;
+    padding: 10px;
+    border: 3px solid gray;
+    text-align: center;
+    margin-left: 35%;
+	background-color: rgb(197,209,227);
+}
+
+.contact a {
+	text-decoration: none;
+}
+
+.contact:hover {
+	background-color: rgb(199,171,95);
+}
+
+.signup {
+	margin: 2em;
+	width: 35%;
+    padding: 10px;
+    border: 3px solid gray;
+    text-align: center;
+    margin-left: 35%;
+	text-decoration: none;
+	background-color: rgb(197,209,227);
+
+}
+
+.burgers {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+	border: 1px grey solid;
+	background-color: rgb(242,245,250);
+	padding: 1em;
+}
+
+.burgers:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.burgerimage {
+	width: 50%;
+	padding: 1em;
+}
+
+.upvote {
+	width: 10%;
+	padding: 5px;
+}
+
+.downvote {
+	width: 10%;
+	padding: 5px;
+}
+
+.socialimage {
+	width: 15%;
+}
+
+.signin {
+	width: 18%;
+}
+
+.info {
+	float: right;
+	width: 50%;
+	padding: 2em;
+}
+
+.user {
+	float: left;
+	width: 50%;
+	padding: 2em;
+}
+
+@media only screen and (max-width: 1260px) {
+	nav a, body {
+		font-size: 1.25em;
+		padding: 1em .5em;
+		border: 1px solid gray;
+	}
+}
+
+@media only screen and (max-width: 1192px) {
+	nav a {
+		font-size: 1em;
+		padding: .8em .4em;
+		border: 1px solid gray;
+	}
+}
+
+@media only screen and (max-width: 1017px) {
+	nav a {
+		font-size: 1em;
+		padding: .8em .4em;
+		border: 1px solid gray;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	nav a {
+		font-size: .8em;
+		padding: .6em .3em;
+		border: 1px solid gray;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	nav a {
+		font-size: .6em;
+		padding: .6em .3em;
+		border: 1px solid gray;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	body {
+		font-size: .6em;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.upvote {
+		width: 30px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.downvote {
+		width: 30px;
+	}
+}
