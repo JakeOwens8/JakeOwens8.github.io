@@ -66,6 +66,7 @@ nav a:hover {
 	margin: 2em;
 	width: 20%;
 	background-color: rgb(197,209,227);
+	opacity: 1;
 }
 
 .lbutton {
